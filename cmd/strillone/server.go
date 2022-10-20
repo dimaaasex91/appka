@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"os"
 	
-	"github.com/dnsimple/strillone"
+	"github.com/dimaaasex91/appka"
 )
 
 var (
