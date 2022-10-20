@@ -1,7 +1,7 @@
 // +heroku goVersion go1.19.1
 // +heroku install ./cmd/...
 
-module github.com/dnsimple/strillone
+module github.com/dimaaasex91/appka
 
 go 1.19
 
