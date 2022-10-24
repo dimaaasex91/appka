@@ -128,7 +128,7 @@ func Message(s MessagingService, e *webhook.Event) (text string) {
 		}
 
 	default:
-		return nil
+		return ""
 	}
 
 	return
