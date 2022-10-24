@@ -42,9 +42,7 @@ func (s *SlackService) PostEvent(event *webhook.Event) (string, error) {
 	if s.Token[0] == '-' {
 		return "", nil
 	}
-	if *webhook.ZoneRecordEventData != "" {
-		return "", nil
-	}
+
 	slackWebhookURL := fmt.Sprintf("https://hooks.slack.com/services/%s", s.Token)
 	log.Printf("[event:%v] Sending event to slack %v\n", eventID, slackWebhookURL)
 
