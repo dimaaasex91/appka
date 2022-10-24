@@ -128,7 +128,7 @@ func Message(s MessagingService, e *webhook.Event) (text string) {
 		}
 
 	default:
-		text = fmt.Sprintf("%s performed %s", prefix, e.Name)
+		break
 	}
 
 	return
